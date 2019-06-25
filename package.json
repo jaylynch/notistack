@@ -17,7 +17,7 @@
     },
     "scripts": {
         "transpile": "babel src -d build --copy-files",
-        "prepublishOnly": "npm run transpile",
+        "prepare": "npm run transpile",
         "eslint": "eslint . --ext .js,.jsx"
     },
     "peerDependencies": {
